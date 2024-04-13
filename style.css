@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+#first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f6f4eb;
+}
+
+.logo {
+  background-color: #5bd8ff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.white-logo {
+  width: 246px;
+  height: 246px;
+  margin: 8px;
+}
+.white-logo h1 {
+  margin: 8px;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.kand-om {
+  margin: 20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+#second-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f4eb;
+  color: #f6f4eb;
+}
+.nav {
+  width: 100%;
+  height: 680px;
+  background-color: #5bd8ff;
+  border-radius: 0 0 25px 25px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* align-items: center; */
+}
+
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.nav p {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  /* font-weight: ; */
+}
+
+.gallery {
+  background-color: #f6f4eb;
+  height: 330px;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-top: auto; /* Aligns the gallery div above the bottom of the .nav div */
+}
+
+.signbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  background-color: #5bd8ff;
+  margin: 30px 0px 20px 0px;
+  width: 297px;
+  height: 65px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.about {
+  color: #5bd8ff;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+#third {
+  background-color: #5bd8ff;
+  /* margin: 57px 20px 0px 20px; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100vh;
+}
+.logo-head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Sign-in {
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+  margin-top: 35px;
+  align-items: center;
+}
+.Sign-in button {
+  width: 297px;
+  height: 65px;
+}
+.interfaces {
+  background-color: #f6f4eb;
+  /* padding: 14px 103px; */
+  /* width: 103px; */
+  /* height: 14px; */
+  margin: 10px 0px;
+  border-radius: 10px;
+  border-style: none;
+  color: #5bd8ff;
+}
+
+.Sign-in h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+#fourth {
+  background-color: #f6f4eb;
+  margin: 20px;
+}
+.header {
+  width: 100%;
+  /* height: 124px; */
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  color: #5bd8ff;
+}
+.header p {
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+
+.qr-box{
+  margin: 20px 0px;
+  width: 100%;
+  height: 400px;
+  background-color: #5bd8ff;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.qrcode{
+  width: 310px;
+  height: 310px;
+  margin: 15px;
+  /* border-radius: 10px; */
+  
+}
+.qr-box p{
+  font-family: "Oswald", sans-serif;
+}
+
+.div-notification{
+  background-color: #5bd8ff;
+  border-radius: 10px;
+  height: 130px;
+  padding: 10px;
+  color: #f6f4eb;
+  font-family: "Oswald", sans-serif;
+  margin: 20px 0px;
+}
+.footer-nav {
+  color: #5bd8ff;
+  display: flex;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 50;
+}
